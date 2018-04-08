@@ -1,0 +1,21 @@
+<ActionBar title="Horoscope" class="action-bar">
+  <NavigationButton text="Go Back" android.systemIcon="ic_menu_back" [nsRouterLink]="['/home']"></NavigationButton>
+</ActionBar>
+
+<StackLayout>
+    <!-- <Label class="h2" [text]="item.id + '. '"></Label> -->
+    <img [src]="item.image" alt="" class="item_image">
+    <Label class="zodiac_name" [text]="item.name" textWrap="true"></Label>
+    <!-- <StackLayout orientation="vertical" [item]="item">
+	  	<ng-template let-itemfacts="item.facts">
+	  		<Label class="h4 zodiac_horo" [text]="itemfacts"></Label>
+	  	</ng-template>
+	  </StackLayout> -->
+    <FlexboxLayout  *ngFor="let f of item.facts" backgroundColor="white" flexWrap="wrap">
+      <Label class="zodiac_horo" [text]="f.fact1" textWrap="true" height="90"></Label>
+      <Label class="zodiac_horo" [text]="f.fact2" textWrap="true" height="90"></Label>
+      <Label class="zodiac_horo" [text]="f.fact3" textWrap="true" height="90"></Label>
+      <Label class="zodiac_horo" [text]="f.fact4" textWrap="true" height="90"></Label>
+      <Label class="zodiac_horo" [text]="f.fact5" textWrap="true" height="90"></Label>
+    </FlexboxLayout>
+</StackLayout>
