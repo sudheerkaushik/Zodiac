@@ -1,4 +1,4 @@
-# Zodiac
+# Zodiac ![logo](https://drive.google.com/uc?id=1ex1-_uaFyZOf8U2Q5OqfYKN2Y_qiJjUs)
 A NativeScript app to see Zodiac facts build for Android. NativeScript rocks!  :sparkles: 
 
 >A big thanks to [JSLovers]( https://twitter.com/jslovers_del) for introducing me to this beautful stuff NativeScript. I always look to >make prototypes for Android devices but lack of android development was holding me back. Another thanks goes to Progress® for making
