@@ -1,0 +1,45 @@
+<ActionBar class="action-bar">
+    <!-- 
+    Use the NavigationButton as a side-drawer button in Android
+    because ActionItems are shown on the right side of the ActionBar
+    -->
+    <NavigationButton ios:visibility="collapsed" icon="res://menu" (tap)="onDrawerButtonTap()"></NavigationButton>
+    <!-- 
+    Use the ActionItem for IOS with position set to left. Using the
+    NavigationButton as a side-drawer button in iOS is not possible,
+    because its function is to always navigate back in the application.
+    -->
+    <ActionItem icon="res://navigation/menu" android:visibility="collapsed" (tap)="onDrawerButtonTap()"
+        ios.position="left">
+    </ActionItem>
+    <Label class="action-bar-title" text="About"></Label>
+</ActionBar>
+
+
+<!-- 
+    <ScrollView orientation="vertical" class="text-center">
+            <template  *ngFor="let items of userProfileList">
+            <StackLayout orientation="vertical" class="list-group">
+                    <template *ngFor="let item of items | keyvalue">
+                       <h4 textWrap="true" class="m-b-15 list-group-item-heading" [text]="item.key | json"  color="black" style="line-height:3;"></h4> 
+                       <Label textWrap="true" class="m-5 list-group-item-heading" [text]="item.value | json"  color="black" style="line-height:3;"></Label> 
+                    </template>  
+                </StackLayout>
+                </template>
+        </ScrollView>
+ -->
+
+ 
+ <ScrollView orientation="vertical" class="text-center">
+    <template  *ngFor="let value  of userProfileList ; index as key">
+            {{key}} -> {{value}}
+            <h4 textWrap="true" class="m-b-15 list-group-item-heading" [text]="userProfileList"  color="black" style="line-height:3;"></h4> 
+    <StackLayout orientation="vertical" class="list-group">
+            <!-- <template *ngFor="let item of items | keyvalue">
+               <h4 textWrap="true" class="m-b-15 list-group-item-heading" [text]="item.key | json"  color="black" style="line-height:3;"></h4> 
+               <Label textWrap="true" class="m-5 list-group-item-heading" [text]="item.value | json"  color="black" style="line-height:3;"></Label> 
+            </template>   -->
+        </StackLayout>
+</template>
+</ScrollView>
+

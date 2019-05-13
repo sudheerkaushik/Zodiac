@@ -1,0 +1,260 @@
+{
+    "facts": {
+        "type": "file",
+        "last_updated": "21-12-2018",
+        "content": [
+            {
+                "id": 1,
+                "name": "Aries",
+                "list": [
+                    {
+                        "fact": "Don’t mess with them, they know themselves better than you do.."
+                    },
+                    {
+                        "fact": "90% of the times, their mood is like “Please don’t wreck my aura”"
+                    },
+                    {
+                        "fact": "It is really straightforward for them, you either show up or keep your mouth shut."
+                    },
+                    {
+                        "fact": "Don’t dare to mess with an Aries woman, she will drag you to hell and mind you she will do it carrying that contagious smile on her face."
+                    },
+                    {
+                        "fact": "When an Aries shows up, better stay out of their way."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Tauras",
+                "list": [
+                    {
+                        "fact": "These guys have a high tolerance for any sh*t, but if you exceed that limit, you better be prepared for the consequences."
+                    },
+                    {
+                        "fact": "They are carefree. You might think, they are thinking about something serious but in reality they are sh*t worried just about they are eating for lunch."
+                    },
+                    {
+                        "fact": "You can never think of breaking these people, they are hard core fighters. They will fight beyond you can even imagine."
+                    },
+                    {
+                        "fact": "You better be least dramatic with them, they wouldn’t prefer hanging out with you ever again if you are that so called “melodramatic”."
+                    },
+                    {
+                        "fact": "The funniest part about them is if they are making fun of you, believe it, it simply means they are protecting you."
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Gemini",
+                "list": [
+                    {
+                        "fact": "Don’t bother yourself to judge if a Gemini loves you or not. Be patient and calm to get the answer."
+                    },
+                    {
+                        "fact": "They don’t need your silly jokes to give them happiness, they are enough for themselves."
+                    },
+                    {
+                        "fact": "These guys are hell of smart, they will sit in a corner and just think,     mind you for them this is an exercise for their brains."
+                    },
+                    {
+                        "fact": "If they pull themselves first while you are kissing, then be assured you have blown it."
+                    },
+                    {
+                        "fact": "Geminis are passionate, they would relish to indulge in healthy flirting with you."
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Cancer",
+                "list": [
+                    {
+                        "fact": "Cancerians are shy people, but give them 2 shots and you will laugh out loud seeing what happens."
+                    },
+                    {
+                        "fact": "These guys are f*cking foodies, love eating but hate sharing. So, feel yourself privileged and lucky, if they share their food with you."
+                    },
+                    {
+                        "fact": "You better don’t lie to them, these super smart fellas to judge you well. Better be what you are in front of them."
+                    },
+                    {
+                        "fact": "Messing with a Cancerian…OK Fine! Thinking to wreck their family or friends, stay back, hold on….they will burn you down."
+                    },
+                    {
+                        "fact": "You preferably start to adjust with your cancerian partner mood swings, they are like that."
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Leo",
+                "list": [
+                    {
+                        "fact": "Don’t be impatient to judge a Leo. They are sort of choosy and take time to get comfortable with you."
+                    },
+                    {
+                        "fact": "Don’t dare to screw with them. From the most sweetest person on Earth, they can turn to someone who is way too rude to handle."
+                    },
+                    {
+                        "fact": "One word to explain a Leo’s personality: Amazing"
+                    },
+                    {
+                        "fact": "They love imagination and fantasy world."
+                    },
+                    {
+                        "fact": "They are full of affection and love. If you are the partner, don’t be surprised if they spend the whole day wrapped in your arms."
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Virgo",
+                "list": [
+                    {
+                        "fact": "If you are lucky enough, you might get to see the wild side of Virgos."
+                    },
+                    {
+                        "fact": "Virgos     are the sole inventors of the so called “Plan B”. They will always have a backup plan, if you ditch on the last moment."
+                    },
+                    {
+                        "fact": "Count on these fellas for a true opinion regarding any topic, beware it might even hurt as they would speak the truth."
+                    },
+                    {
+                        "fact": "They can’t tolerate any sort of bullsh*t. They will leave at the first sight of it."
+                    },
+                    {
+                        "fact": "Virgos     strongly believe in themselves. So don’t think they will fight back during an argument or even try to explain things."
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "name": "Libra",
+                "list": [
+                    {
+                        "fact": "You will be lucky to have them as your partner. They will be there for you each time you need them."
+                    },
+                    {
+                        "fact": "These guys are quick to fall, will forgive easily, care for someone like anything but definitely this s*cks at times."
+                    },
+                    {
+                        "fact": "Funny     but at times a Libra will become their own worst enemy."
+                    },
+                    {
+                        "fact": "You don’t have a logic to support your conversation, sorry these guys have no time for such useless talks."
+                    },
+                    {
+                        "fact": "They are bad at making decisions, their minds fluctuate like a switch."
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "name": "Scorpio",
+                "list": [
+                    {
+                        "fact": "Simply be transparent, don’t hide things and speak the truth, this what a Scorpio looks for in their love partner."
+                    },
+                    {
+                        "fact": "These guys are too hard to be predicted. You can’t read their face to tell about their qualities."
+                    },
+                    {
+                        "fact": "Try these fellas only if you are ready for a commitment, else better keep that distance."
+                    },
+                    {
+                        "fact": "Don’t even think about f*cking with them, they are like the two ends of a string."
+                    },
+                    {
+                        "fact": "Don’t bother to play a question hour with these people, they are least interested."
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "name": "Sagittarius",
+                "list": [
+                    {
+                        "fact": "Trying     to tame a Sagittarian, not worth the efforts, they love to be set free."
+                    },
+                    {
+                        "fact": "Don’t be astonished to check their reserves of memories. They can relate to something that might have happened ages ago."
+                    },
+                    {
+                        "fact": "They are honest and hate those sugar-coated and sweet talks. Better be straightforward with them."
+                    },
+                    {
+                        "fact": "Sagittarians can be freaks, crazy, wild on one hand and on the other maintain their tradition."
+                    },
+                    {
+                        "fact": "Short-tempered but the best part their anger vanishes within seconds."
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "name": "Capricorn",
+                "list": [
+                    {
+                        "fact": "If you are an attention seeker, expect nothing from Capricorns."
+                    },
+                    {
+                        "fact": "You might not like their honesty. They will cook up conversation in a funny manner to speak out the truth."
+                    },
+                    {
+                        "fact": "Messed up with a Capricorn, watch out for the hard time coming your way."
+                    },
+                    {
+                        "fact": "They can be the funniest people to hang out with in a party."
+                    },
+                    {
+                        "fact": "Allow them to amaze you and you will get a crazy Capricorn in turn."
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "name": "Aquarius",
+                "list": [
+                    {
+                        "fact": "They don’t give a damn about what people think of them; they will present themselves the way they want to."
+                    },
+                    {
+                        "fact": "At the end of the day, they need time for themselves to think     over their actions carried out in the da"
+                    },
+                    {
+                        "fact": "Don’t call for problems by judging an Aquarius before you actually know about them."
+                    },
+                    {
+                        "fact": "Don’t even think of controlling them, they will break all rules to make you understand where you stand."
+                    },
+                    {
+                        "fact": "If you like being rough in the bedroom, you will love to be accompanied by an Aquarius partner."
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "name": "Pisces",
+                "list": [
+                    {
+                        "fact": "They might forget what they wore yesterday but will never forget what you     did with them ages ago."
+                    },
+                    {
+                        "fact": "You will find them funny, believe it, that is their secret weapon."
+                    },
+                    {
+                        "fact": "They don’t have the time or even bother to argue with you, they prefer being silent and let you think what you wish to."
+                    },
+                    {
+                        "fact": "They will stand by your side for lifetime if you are able to win their     trust and friendship."
+                    },
+                    {
+                        "fact": "They are good at judging people and with time, can make out your weakness."
+                    }
+                ]
+            }
+        ]
+    }
+}
