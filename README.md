@@ -1,7 +1,8 @@
 # Zodiac 
 A NativeScript app to see Zodiac facts build for Android. NativeScript rocks!  :sparkles: 
 
-
+![image1](https://drive.google.com/uc?export=view&id=1AK2_xsULDXxD7CYwq3q_ffV8u3PKKalo)
+![image2](https://drive.google.com/uc?export=view&id=1DwM7uoFzTMUlchLSOjjFGbMWdauYz6qF)
 
 ## Flashback
 >It was a sunny day, a beautiful sunny day. My first meetup with [JSLovers]( https://twitter.com/jslovers_del) was on this very day. We were destined to meet. And there, I met Nativescript and we've been in love since then :heart::heart::heart::heart::heart:
