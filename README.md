@@ -4,44 +4,37 @@ A NativeScript app to see Zodiac facts build for Android. NativeScript rocks!  :
 
 
 ## Flashback
->A big thanks to [JSLovers]( https://twitter.com/jslovers_del) for introducing me to this beautful stuff NativeScript. I always look to >make prototypes for Android devices but lack of android development was holding me back. Another thanks goes to Progress® for making
->NativeScript this awesome.
+>It was a sunny day, a beautiful sunny day. My first meetup with [JSLovers]( https://twitter.com/jslovers_del) was on this very day. We were destined to meet. And there, I met Nativescript and we've been in love since then :heart::heart::heart::heart::heart:
 
-# NativeScript with Angular Drawer Navigation Template
+## Back to Present
+ok enough. So I do like Nativescript but I haven't made much with it. So I am repeating the same boring idea of making a Horoscope App with it. But this time, with real APIs :smile:
 
-App templates help you jump start your native cross-platform apps with built-in UI elements and best practices. Save time writing boilerplate code over and over again when you create new apps.
 
-App template featuring a RadSideDrawer component for navigation. The RadSideDrawer component is part of [Progress NativeScript UI](https://github.com/telerik/nativescript-ui-feedback).
+## What's Inside
 
-<img src="/tools/assets/phone-drawer-ios.png" height="400" /> <img src="/tools/assets/phone-drawer-android.png" height="400" />
+Four pages:
+1. Home
+2. Daily Horoscoe page (Will add tabs for monthly and weekly very soon)
+3. Factlist page (shows same 12 zodiac signs here)
+4. FactDeyails page, which shows you some interesting facts about your zodiac sign
 
-## Key Features
+## Technically, it includes
 
-- Side drawer navigation
-- Five blank pages hooked to the drawer navigation
-- Customizable theme
-- UX and development best practices
-- Easy to understand code
+- A Side drawer navigation
+- Four ~~blank~~ Filled pages hooked to the drawer navigation
+- ~~Customizable~~ Blue theme (will add opion in setting page to change color to Pink, My favourite color)
+- ~~UX and development best practices~~ poorly written code, like a noob
+- Easy to understand code (kidding :wink:)
 
-## Quick Start
+## Things to make it work
 
-Execute the following command to create an app from this template:
+Make sure you have
+1. [Nativescript Sidekick](https://www.nativescript.org/nativescript-sidekick) from here. Quite useful. You don't have to beat keyboard to death while using terminal or command prompt. Just click and Drive
 
-``` shell
-tns create my-drawer-ng --template tns-template-drawer-navigation-ng
-```
+2. Vscode is preferred, you can use Sublime as well
+3. Sound knowledge of Typscript
+4. Keep a tab open in Chrome, which should show you documentation about Nativescript UI components (Div soup is prohibited)
 
-> Note: This command will create a new NativeScript app that uses the latest version of this template published to [npm](https://www.npmjs.com/package/tns-template-drawer-navigation-ng).
-
-If you want to create a new app that uses the source of the template from the `master` branch, you can execute the following:
-
-``` shell
-tns create my-drawer-ng --template https://github.com/NativeScript/template-drawer-navigation-ng
-```
-
-**NB:** Please, have in mind that the master branch may refer to dependencies that are not on NPM yet!
-
-## Walkthrough
 
 ### Architecture
 
@@ -57,11 +50,10 @@ RadSideDrawer has the following component structure:
 
 There are five blank components located in these folders:
 
-- `/browse`
-- `/featured`
 - `/home`
-- `/search`
-- `/settings`
+- `/horoscopeDetails`
+- `/factlist`
+- `/factdetails`
 
 ### Styling
 
@@ -74,8 +66,31 @@ It has 4 global style files that are located at the root of the app folder:
 - `app.android.scss` - the global Android style sheet. These style rules are applied to Android only.
 - `app.ios.scss` - the global iOS style sheet. These style rules are applied to iOS only.
 
+## Next in List
+1. Making Factlist services(will be free, But I can't assure daily updation)
+2. Setting page to change theme color (Pink color is my fav)
+3. About page for direct/indirect contributors
+4. Logo creation for app
+5. Code beautification and minification
+
 ## Get Help
 
+
+Feel free to give any suggestion or open a bug
+
+## Contributing
+
+1. [Horoscope API](https://github.com/tapaswenipathak/Horoscope-API) by [Tapasweni Pathak](https://github.com/tapaswenipathak/Horoscope-API)
+2. App design and Development by [Sudhir Kaushik](https://github.com/SudhirKaushik)
+
+<!-- 
+## Sources:
+
+Create Icons and spalsh screens from here:
+http://nsimage.brosteins.com/
+
+Preview images of man holding my app:
+http://dunnnk.com/?ref=producthunt#0 -->
 The NativeScript framework has a vibrant community that can help when you run into problems.
 
 Try [joining the NativeScript community Slack](http://developer.telerik.com/wp-login.php?action=slack-invitation). The Slack channel is a great place to get help troubleshooting problems, as well as connect with other NativeScript developers.
