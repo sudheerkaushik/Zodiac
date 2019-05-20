@@ -2,7 +2,7 @@
 A NativeScript app to see Zodiac facts build for Android. NativeScript rocks!  :sparkles: 
 [Download Debug APK here](https://drive.google.com/file/d/1dmVcHs6JJW8aNCmrb1VyGsjytURMoF4j/view)
 
-<img src="https://drive.google.com/file/d/1TAFT5ohWNU5E2OwXFWEK4BUI08Dz94Ar/view?usp=sharing" width="350">
+<img src="https://drive.google.com/uc?export=view&id1TAFT5ohWNU5E2OwXFWEK4BUI08Dz94Ar" width="350">
 
 ## Flashback
 >It was a sunny day, a beautiful sunny day. My first meetup with [JSLovers]( https://twitter.com/jslovers_del) was on this very day. We were destined to meet. And there, I met Nativescript and we've been in love since then :heart::heart::heart::heart::heart:
