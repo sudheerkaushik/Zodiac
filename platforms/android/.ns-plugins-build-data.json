@@ -1,0 +1,13 @@
+{
+	"nativescript-ui-sidedrawer": {
+		"E:\\Sudhir\\Fresh\\zodiac\\node_modules\\nativescript-ui-sidedrawer\\platforms\\android\\TNSSideDrawer-release.aar": "331c897ac7cc256daac53036a1bd48ba8f2380f5",
+		"E:\\Sudhir\\Fresh\\zodiac\\node_modules\\nativescript-ui-sidedrawer\\platforms\\android\\typings\\sidedrawer.d.ts": "91ef64e6d1864556d27ded671283ee4a05b7c4eb"
+	},
+	"nativescript-ui-core": {
+		"E:\\Sudhir\\Fresh\\zodiac\\node_modules\\nativescript-ui-core\\platforms\\android\\TNSCore-release.aar": "cce16a86c2a6f56ca7243ed8db86b004ecb0016e",
+		"E:\\Sudhir\\Fresh\\zodiac\\node_modules\\nativescript-ui-core\\platforms\\android\\typings\\core.d.ts": "5c032652edfa1719ef8c8190fc0f66d3b1c313c2"
+	},
+	"tns-core-modules-widgets": {
+		"E:\\Sudhir\\Fresh\\zodiac\\node_modules\\tns-core-modules-widgets\\platforms\\android\\widgets-release.aar": "0adf00f86e29a73b3beb263951c7a10011372516"
+	}
+}

@@ -6,10 +6,10 @@ http://docs.telerik.com/devtools/nativescript-ui/Controls/NativeScript/SideDrawe
 <RadSideDrawer [drawerTransition]="sideDrawerTransition">
     <GridLayout tkDrawerContent rows="auto, *" class="sidedrawer sidedrawer-left">
         <StackLayout row="0" class="sidedrawer-header">
-            <!-- <Label class="sidedrawer-header-image fa" text="&#xf2bd;"></Label>
-            <Label class="sidedrawer-header-brand" text="User Name"></Label>
-            <Label class="footnote" text="username@mail.com"></Label> -->
-            <Label class="sidedrawer-header-brand t-25 p-t-15" text="Zodiac"></Label>
+            <Image src="~/img/logo.png" class="sidedrawer-header-image"></Image>
+            <Label class="sidedrawer-header-brand h3 f20" text="Zodiac"></Label>
+            <!-- <Label class="footnote" text="username@mail.com"></Label> -->
+            <Label class="sidedrawer-header-brand t-25 p-t-5" text="Your Daily Horoscope"></Label>
         </StackLayout>
 
         <ScrollView row="1">
@@ -26,17 +26,11 @@ http://docs.telerik.com/devtools/nativescript-ui/Controls/NativeScript/SideDrawe
                     <Label col="1" text="Zodiac Facts" class="p-r-10"></Label>
                 </GridLayout>
                 <StackLayout class="hr-light"></StackLayout>
-                <!-- <GridLayout columns="auto, *" class="sidedrawer-list-item"
+                <GridLayout columns="auto, *" class="sidedrawer-list-item"
                     [class.selected]="isComponentSelected('/about')" (tap)="onNavItemTap('/about')">
-                    <Label col="0" text="&#xf002;" class="fa"></Label>
+                    <Label col="0" text="&#xf129;" class="fa"></Label>
                     <Label col="1" text="About" class="p-r-10"></Label>
-                </GridLayout> -->
-
-                <!-- <GridLayout columns="auto, *" class="sidedrawer-list-item"
-                    [class.selected]="isComponentSelected('/featured')" (tap)="onNavItemTap('/featured')">
-                    <Label col="0" text="&#xf005;" class="fa"></Label>
-                    <Label col="1" text="About" class="p-r-10"></Label>
-                </GridLayout> -->
+                </GridLayout>
 
                 <StackLayout class="hr-light"></StackLayout>
 

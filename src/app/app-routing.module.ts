@@ -4,7 +4,7 @@ import { NativeScriptRouterModule } from "nativescript-angular/router";
 import { HttpClientModule } from '@angular/common/http';
 
 const routes: Routes = [
-    { path: "", redirectTo: "/about", pathMatch: "full" },
+    { path: "", redirectTo: "/home", pathMatch: "full" },
     { path: "home", loadChildren: "~/app/home/home.module#HomeModule" },
     { path: "horoscope/:id", loadChildren: "~/app/horoscopeDetails/horoscopeDetails.module#HoroscopeDetailsModule" },
     { path: "factlist", loadChildren: "~/app/factslist/factslist.module#FactslistModule" },

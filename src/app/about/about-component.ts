@@ -12,7 +12,10 @@ import * as app from "tns-core-modules/application";
     styleUrls: ['./about.component.css']
 })
 export class AboutComponent {
-    private Abouturl = "http://www.mocky.io/v2/5cd44c543500006da77a5498";
+    // private Abouturl = "http://www.mocky.io/v2/5cd44c543500006da77a5498";
+    // private Abouturl = "http://www.mocky.io/v2/5cdae25c300000500068cac3";
+    private Abouturl = "http://www.mocky.io/v2/5ce0dbb33200000e002f625e";
+    
     constructor(private route: ActivatedRoute, private http: HttpClient) {
         /* ***********************************************************
         * Use the constructor to inject app services that you need in this component.
@@ -32,9 +35,9 @@ export class AboutComponent {
         );
     }
     private renderAbout(resp){
-        this.AppDetails=resp.data;
-        this.userProfileList= resp.data.contributors;
-        console.log(this.userProfileList);
+        this.AppDetails=resp.data.appdata.AppDetails;
+        this.userProfileList= resp.data.credits.contributors;
+
     }
     ngOnInit(): void {
         this.getAppData();

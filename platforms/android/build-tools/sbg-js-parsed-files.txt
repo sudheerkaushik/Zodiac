@@ -1,0 +1,11 @@
+E:\Sudhir\Fresh\zodiac\platforms\android\app\src\main\assets\app\0.js
+E:\Sudhir\Fresh\zodiac\platforms\android\app\src\main\assets\app\1.js
+E:\Sudhir\Fresh\zodiac\platforms\android\app\src\main\assets\app\2.js
+E:\Sudhir\Fresh\zodiac\platforms\android\app\src\main\assets\app\3.js
+E:\Sudhir\Fresh\zodiac\platforms\android\app\src\main\assets\app\4.js
+E:\Sudhir\Fresh\zodiac\platforms\android\app\src\main\assets\app\5.js
+E:\Sudhir\Fresh\zodiac\platforms\android\app\src\main\assets\app\6.js
+E:\Sudhir\Fresh\zodiac\platforms\android\app\src\main\assets\app\bundle.js
+E:\Sudhir\Fresh\zodiac\platforms\android\app\src\main\assets\app\starter.js
+E:\Sudhir\Fresh\zodiac\platforms\android\app\src\main\assets\app\tns-java-classes.js
+E:\Sudhir\Fresh\zodiac\platforms\android\app\src\main\assets\app\vendor.js

@@ -47,6 +47,9 @@ export class HoroscopeDetailsComponent {
 this.createAuthorizationHeader(headers);*/
     this.http.get(this.factsJsonUrl).subscribe(
       data => {
+        // setInterval(() => {
+        //   this.progressValue += 100;
+        // }, 300);
         this.getCurrentZodiacName(data, id);
       },
       (err) => {
@@ -80,20 +83,15 @@ this.createAuthorizationHeader(headers);*/
 
   ngOnInit(): void {
     this.getClikedId();
-    this.progressValue = 25;
+    // this.progressValue = 25;
 
-    setInterval(() => {
-      this.progressValue += 100;
-    }, 300);
+
     /* ***********************************************************
     * Use the "ngOnInit" handler to initialize data for this component.
     *************************************************************/
   }
   onValueChanged(args) {
     let progressBar = <Progress>args.object;
-
-    console.log("Value changed for " + progressBar);
-    console.log("New value: " + progressBar.value);
   }
   onDrawerButtonTap(): void {
     const sideDrawer = <RadSideDrawer>app.getRootView();

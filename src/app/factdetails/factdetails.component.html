@@ -18,8 +18,12 @@
 </ActionBar>
 
 <StackLayout class="page factsDetailsComponent">
-    <!-- <WrapLayout orientation="horizontal" width="100%" height="100%" backgroundColor="lightgray" class="zodiac_list"> -->
-        
+        <StackLayout orientation="vertical" class="p-b-15 text-center" width="100%">
+                <Image [src]="'~/img/horoIcons/'+_selectedZodiacName+'.jpg'" width="75" height="75" stretch="aspectFit"
+                    class="img-rounded imgZodiac">
+                </Image>
+                <Label [text]="_selectedZodiacName" class="h2" style="color:#000"></Label>
+            </StackLayout>
     <ListView [items]="singlefactList"  class="list-group zodiac_list">  
         <template *ngFor="let item of singlefactList">
                 <StackLayout orientation="horizontal" class="list-group-item">

@@ -16,30 +16,31 @@
 </ActionBar>
 
 
-<!-- 
-    <ScrollView orientation="vertical" class="text-center">
-            <template  *ngFor="let items of userProfileList">
+
+<ScrollView orientation="vertical" class="text-center">
+<StackLayout orientation="vertical" class="p-5">
+    <template *ngFor="let item of AppDetails">
+        <template *ngFor="let items  of item | keyvalue">
             <StackLayout orientation="vertical" class="list-group">
-                    <template *ngFor="let item of items | keyvalue">
-                       <h4 textWrap="true" class="m-b-15 list-group-item-heading" [text]="item.key | json"  color="black" style="line-height:3;"></h4> 
-                       <Label textWrap="true" class="m-5 list-group-item-heading" [text]="item.value | json"  color="black" style="line-height:3;"></Label> 
-                    </template>  
-                </StackLayout>
-                </template>
-        </ScrollView>
- -->
-
- 
- <ScrollView orientation="vertical" class="text-center">
-    <template  *ngFor="let value  of userProfileList ; index as key">
-            {{key}} -> {{value}}
-            <h4 textWrap="true" class="m-b-15 list-group-item-heading" [text]="userProfileList"  color="black" style="line-height:3;"></h4> 
-    <StackLayout orientation="vertical" class="list-group">
-            <!-- <template *ngFor="let item of items | keyvalue">
-               <h4 textWrap="true" class="m-b-15 list-group-item-heading" [text]="item.key | json"  color="black" style="line-height:3;"></h4> 
-               <Label textWrap="true" class="m-5 list-group-item-heading" [text]="item.value | json"  color="black" style="line-height:3;"></Label> 
-            </template>   -->
-        </StackLayout>
-</template>
+                <Label textWrap="true" class="m-b-5 h3 list-group-item-heading text-capitalize" [text]="items.key" color="black"
+                    style="line-height:3;"></Label>
+                <Label textWrap="true" class="m-b-25 list-group-item-heading" [text]="items.value" color="black"
+                    style="line-height:3;"></Label>
+            </StackLayout>
+        </template>
+    </template>
+    <template *ngFor="let item of userProfileList">
+        <!-- {{userProfileList}} -->
+        <SegmentedBar class="m-15" backgroundColor="red"></SegmentedBar>
+        <template *ngFor="let i of item| keyvalue">
+            <StackLayout orientation="vertical" class="list-group">
+                <Label textWrap="true" class="m-b-5 h3 list-group-item-heading text-capitalize" [text]="i.key" color="black"
+                    style="line-height:3;"></Label>
+                <Label textWrap="true" class="m-b-25 list-group-item-heading" [text]="i.value" color="black"
+                    style="line-height:3;"></Label>
+            </StackLayout>
+        </template>
+        <SegmentedBar class="m-15" backgroundColor="red"></SegmentedBar>
+    </template>
+</StackLayout>
 </ScrollView>
-

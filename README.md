@@ -15,15 +15,15 @@ ok enough. So I do like Nativescript but I haven't made much with it. So I am re
 
 Four pages:
 1. Home
-2. Daily Horoscoe page (Will add tabs for monthly and weekly very soon)
+2. Daily Horoscope page (Will add tabs for monthly and weekly very soon)
 3. Factlist page (shows same 12 zodiac signs here)
-4. FactDeyails page, which shows you some interesting facts about your zodiac sign
+4. FactDetails page, which shows you some interesting facts about your zodiac sign
 
 ## Technically, it includes
 
 - A Side drawer navigation
 - Four ~~blank~~ Filled pages hooked to the drawer navigation
-- ~~Customizable~~ Blue theme (will add opion in setting page to change color to Pink, My favourite color)
+- ~~Customizable~~ Blue theme (will add option in setting page to change color to Pink, My favourite color)
 - ~~UX and development best practices~~ poorly written code, like a noob
 - Easy to understand code (kidding :wink:)
 
@@ -87,7 +87,7 @@ Feel free to give any suggestion or open a bug
 <!-- 
 ## Sources:
 
-Create Icons and spalsh screens from here:
+Create Icons and splash screens from here:
 http://nsimage.brosteins.com/
 
 Preview images of man holding my app:
