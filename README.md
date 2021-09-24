@@ -2,16 +2,16 @@
 A NativeScript app to see Zodiac facts build for Android. NativeScript rocks!  :sparkles: 
 [Download Debug APK here](https://drive.google.com/file/d/1dmVcHs6JJW8aNCmrb1VyGsjytURMoF4j/view)
 
-<img src="https://drive.google.com/uc?export=view&id=1TAFT5ohWNU5E2OwXFWEK4BUI08Dz94Ar" width="350">
+<img src="https://github.com/sudheerkaushik/Zodiac/blob/master/Archive/app/images/details1.jpg" width="350">
 
 ## Flashback
->It was a sunny day, a beautiful sunny day. My first meetup with [JSLovers]( https://twitter.com/jslovers_del) was on this very day. We were destined to meet. And there, I met Nativescript and we've been in love since then :heart::heart::heart::heart::heart:
+>It was a sunny day, a beautiful sunny day. My first meetup with [JSLovers]( https://twitter.com/jslovers_del) was on this very day. And there, I met Nativescript and we've been in love since then :heart::heart::heart::heart::heart:
 
 ## Back to Present
 ok enough. So I do like Nativescript but I haven't made much with it. So I am repeating the same boring idea of making a Horoscope App with it. But this time, with real APIs :smile:
 
 
-<img src="https://drive.google.com/uc?export=view&id=1AK2_xsULDXxD7CYwq3q_ffV8u3PKKalo" width="350">
+<img src="https://github.com/sudheerkaushik/Zodiac/blob/master/Archive/app/images/List1.jpg" width="350">
 
 
 ## What's Inside
